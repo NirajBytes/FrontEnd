@@ -20,3 +20,4 @@ console.log(l);
 //2.code phase - thread of execution 
 
 // hence hoisting is possible
+
