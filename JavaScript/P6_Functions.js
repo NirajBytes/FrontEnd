@@ -21,20 +21,20 @@ console.log("THIS IS FROM SIXTH SCRIPT :");
 //pass function as an arguments
 
 
-let sum = function (a,b){
-    return a+b;
+let sum = function (a, b) {
+    return a + b;
 }
 
-function diff(a,b){
-    return a-b;
+function diff(a, b) {
+    return a - b;
 }
 
-function operate(operationFunc ,a,b){
-    return operationFunc(a,b);
+function operate(operationFunc, a, b) {
+    return operationFunc(a, b);
 }
 
-console.log(operate(sum,2,3));
-console.log(operate(diff,2,3));
+console.log(operate(sum, 2, 3));
+console.log(operate(diff, 2, 3));
 
 
 //Higher order functions are nothing but 
@@ -44,13 +44,13 @@ console.log(operate(diff,2,3));
 
 //Arrow Functions
 //Function + lexical scope = Closure
-let div = (a,b) => a/b;
-console.log(div(4,3));
+let div = (a, b) => a / b;
+console.log(div(4, 3));
 
 //Functions returns
-let a =10;
+let a = 10;
 function outer() {
-    a=100;
+    a = 100;
     function inner() {
         console.log('hello');
         console.log(a);

@@ -40,12 +40,12 @@ console.log(typeof(largeNumber));
 /*
 conclusion 
 1. js is dynamically typed 
-Data Type	    Description	                 Example
-String	     Textual data	            "Hello"
-Number	     Integers and floats 	    3.14
-BigInt	     Large integers	             100n
-Boolean	     Logical values	             true
-Undefined	 Variable with no value	    undefined
-Null	     Intentional empty value 	null
-Symbol	     Unique identifier	        Symbol('key')
+Data Type	 Description	                 Example
+String	     Textual data	                "Hello"
+Number	     Integers and floats 	        3.14
+BigInt	     Large integers	                100n
+Boolean	     Logical values	                true
+Undefined	 Variable with no value	        undefined
+Null	     Intentional empty value 	    null
+Symbol	     Unique identifier	            Symbol('key')
 */
