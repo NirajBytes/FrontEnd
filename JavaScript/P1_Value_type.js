@@ -36,7 +36,7 @@ console.log(typeof (id));
 //Bigint
 let largeNumber = 9007199254740991n;
 console.log(largeNumber);
-console.log(typeof(largeNumber));
+console.log(typeof (largeNumber));
 /*
 conclusion 
 1. js is dynamically typed 

@@ -5,16 +5,16 @@
 function fetchData(callback) {
     setTimeout(() => {
         let data = 'data fetched';
-        callback(data,null);
+        callback(data, null);
     }, 5000);
 
 }
 
-function handledData(data,error){
-    if(error){
+function handledData(data, error) {
+    if (error) {
         console.error(error);
     }
-    else{
+    else {
         console.log(data);
     }
 }

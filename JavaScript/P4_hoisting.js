@@ -14,10 +14,10 @@ console.log(l);
 
 //HOW JS CODE EXECUTED
 
-//execution context 
+//execution context
 //1. memory phase - variable environment
 
-//2.code phase - thread of execution 
+//2.code phase - thread of execution
 
 // hence hoisting is possible
 

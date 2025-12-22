@@ -1,7 +1,7 @@
 //execution context   1. memory phase  2. execution phase
 /*
 Every thing in JS Happens inside the execution context
-Have a look in*/ {Exe_context.png}
+Have a look in*/ { Exe_context.png }
 
 // JS is synchronous Single Threaded language
 
