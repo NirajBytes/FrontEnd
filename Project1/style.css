@@ -1,0 +1,22 @@
+    body {
+        font-family: sans-serif;
+        padding: 20px;
+        line-height: 1.6;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .high-priority {
+        color: red;
+        font-weight: bold;
+    }
+
+    button {
+        cursor: pointer;
+        padding: 5px 10px;
+    }

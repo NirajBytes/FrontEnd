@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS Mastery Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>JS Execution Context Dashboard</h1>
+
+    <div class="card">
+        <h3>1. Closures & Scope (Counter)</h3>
+        <p>Current ID: <span id="id-display">ID-0</span></p>
+        <button onclick="updateIdDisplay()">Generate Next ID</button>
+    </div>
+
+    <div class="card">
+        <h3>2. Async/Await (API Data)</h3>
+        <p id="api-status">Loading data from server...</p>
+    </div>
+
+    <div class="card">
+        <h3>3. Filter & Map (Task List)</h3>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
