@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="billcalc.css">
+</head>
+
+<body>
+    <form onsubmit="return calculateTotalPrice();">
+        <h1>Bill Calculator</h1>
+        <table>
+            <tr>
+                <td><label for="productName">Product Name</label></td>
+                <td><input type="text" id="productName" placeholder="Product Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="price">Product Price in Rs.</label></td>
+                <td><input type="number" id="price" placeholder="Product Price" required></td>
+            </tr>
+            <tr>
+                <td><label for="qty">Quantity</label></td>
+                <td><input type="number" id="qty" placeholder="Enter quantity" required min="1"></td>
+            </tr>
+            <tr>
+                <td><label for="totalprice">Total Price in Rs.</label></td>
+                <td><output id="totalprice"></output></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
+
+<script>
+    const calculateTotalPrice = () => {
+        const a = document.getElementById("price").value; //it return strings
+        // console.log(a);
+        // console.log(typeof(a));
+        const b = document.getElementById("qty").value; // it returns string
+        const total = Number(a) * Number(b);
+        // document.getElementById("totalprice").innerText = a + b; use this by commenting the above line bug will revealed
+        document.getElementById("totalprice").innerText = total;
+        return false;
+        /*
+        The Danger Zone (Why you should be careful)
+While multiplication works this way, the Addition operator (+) does not. If you tried to add them, JavaScript would think you want to join the text together (concatenation).
+
+"150" + "10" = "15010" (Incorrect)
+
+"150" * "10" = 1500 (Correct)
+        */
+    }
+</script>
