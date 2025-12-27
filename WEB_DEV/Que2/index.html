@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>EMI Calculator</h1>
+    <form onsubmit="return emiCalculated() ">
+        <table>
+            <tr>
+                <td><label for="principalAmount">Principal Amount in Rs.</label></td>
+                <td><input type="number" id="principalAmount" placeholder="Principal Amount" required></td>
+            </tr>
+            <tr>
+                <td><label for="interestRate">Interest Per Annum</label></td>
+                <td><input type="number" id="interestRate" placeholder="Interest Per Annum" required></td>
+            </tr>
+            <tr>
+                <td><label for="tenure">Tenure in Months</label></td>
+                <td><input type="number" id="tenure" placeholder="Tenure in Months" required></td>
+            </tr>
+            <tr>
+                <td  align="right"><input type="submit" value="Calculate" id="submit"></td>
+                <td align="left"><button type="reset" id="reset" >Clear</button></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <output id="result"></output>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+
+
+
+

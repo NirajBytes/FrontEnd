@@ -1,0 +1,17 @@
+
+ h1{
+text-align: center;
+ color:#F000;
+ font-style: italic;
+ font-weight: bold;
+ }
+
+ table{
+ text-align: left;
+ margin-left: 35%;
+ background-color: #AA99A4 ;
+ }
+
+ td{
+ padding: 10px;
+ }
