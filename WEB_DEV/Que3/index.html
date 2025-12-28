@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>FeedBack for the ART OF LIVING session</h2>
+    
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="feedback">Enter the feedback :
+                        </label>
+                        <textarea name="text-input" id="text-input"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button id="create" onclick="addFeedback()">Add Feedback</button>
+                    </td>
+                </tr>
+                <tr>
+                     <td colspan="2" align="center">
+                        <button id="view" onclick="displayFeedback()">View Feedback</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="result"></div>
+   
+</body>
+<script src="script.js"></script>
+
+</html>
