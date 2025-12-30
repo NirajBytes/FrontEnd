@@ -1,39 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fixed And Reducing Loan Estimator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <table>
+    <h2>Reducing Interest Loan Estimation</h2>
+    <table id="tablemain">
         <tbody>
             <tr>
                 <td>
-                    <label for="principalAmount">Principal Loan Amount (Rs.)</label>
-                    <input type="number" name="principalAmount" id="principalAmount">
+                    <!--                         Table 1               -->
+
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label  for="principalAmount">Principal Loan Amount (Rs.)</label>
+                                    <input  type="number" name="principalAmount" placeholder="Principal Amount"
+                                        id="principalAmount">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="intrestRate">Intrest Rate(%)</label>
+                                    <input type="number" name="intrestRate" placeholder="Interest Per Annum"
+                                        id="interestRate">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="tenure">Tenure (in months)</label>
+                                    <input type="number" name="tenure" id="tenure" placeholder="Tenure in Months">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <!-- <button type="" id="Estimate">Estimate</button> -->
+                                    <input type="button" value="Estimate" id="Estimate"
+                                        onclick="EstimateReducingInterestLoan()">
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
                 </td>
+
             </tr>
+
+
             <tr>
                 <td>
-                    <label for="intrestRate">Intrest Rate(%)</label>
-                    <input type="number" name="intrestRate" id="intrestRate">
+                    <table border="1">
+                        <caption><b>Loan Estimation</b></caption>
+                        <thead>
+                            <tr>
+                                <th>Details</th>
+                                <th>Reducing Interest Loan</th>
+                                <th>Fixed Interest Loan</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Total Interest Rs.</td>
+                                <td>
+                                    <output id="tInterest"></output>
+                                </td>
+                                <td>
+                                    <output id="tInterestFixed"></output>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Total Payment Rs.</td>
+                                <td>
+                                    <output id="tPayment"></output>
+                                </td>
+                                <td>
+                                    <output id="tPaymentFixed"></output>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Monthly EMI Rs.</td>
+                                <td>
+                                    <output id="EMI"></output>
+                                </td>
+                                <td>
+                                    <output id="EMIFixed"></output>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
                 </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="tenure">Tenure (in months)</label>
-                    <input type="number" name="tenure" id="tenure">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <button type="submit" id="Estimate">Estimate</button>
-                </td>
+
             </tr>
 
         </tbody>
+
     </table>
-    
+    <script src="script.js"></script>
+
 </body>
+
 </html>

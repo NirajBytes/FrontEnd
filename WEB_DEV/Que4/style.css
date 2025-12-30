@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+    color: #FF0000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    text-align: left;
+    background-color: #FFE77A;
+    padding: 10px;
+}
+
+thead {
+    text-align: center;
+}
+
+#tablemain {
+    margin-left: 35%;
+}
+
+
+#Estimate {
+    background-color: #F1F334;
+    color: #000000;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+}
+
