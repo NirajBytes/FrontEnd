@@ -1,0 +1,81 @@
+#submit {
+  display: flex;
+  flex-direction: column;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: none;
+  transition: transform 10s ease; /* This makes it spin smoothly */
+}
+img:hover {
+  transform: rotate(30deg);
+}
+h1 {
+  margin: 10px;
+  color: rgb(166, 102, 56);
+}
+h1:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+span {
+  color: brown;
+}
+li {
+  margin: 10px;
+  color: rgb(127, 127, 206);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+  display: flex;
+  margin: 10px;
+}
+label {
+  color: black;
+}
+input {
+  margin: 10px;
+}
+.anchors{
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+a{
+    color: yellow;
+}
+#click-btn{
+    display: flex;
+    justify-content: center;
+}
+img{
+    animation: spin infinite linear 1.0s;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+    
+}

@@ -1,0 +1,52 @@
+quick_overview
+
+CSS
+Cascading Style sheet
+
+Type of implimentations
+
+1.inline 
+2.internal
+3.external
+
+selectors in CSS
+
+with the use of
+
+1.  tags name
+
+2.  ._class name
+
+3.  #unique id
+
+Different units in CSS
+
+px
+pixel means picture elevant.its size depends on condition
+pixel used to store image in digital format
+
+em(1em = 1*parent size)
+Depends on parent element
+rem(1rem=1* root element)
+wv(2wv=width ka 2%)
+hv(2hv=height ka 2%)  
+%(related to direct parent element)
+
+font shorthand property(HW)
+
+In CSS, the font shorthand property allows you to set multiple font-related properties in a single line. It is highly efficient but follows a strict internal order that must be respected for the browser to parse it correctly.
+
+The Required Order
+To use the shorthand, you must follow this sequence:
+
+font-style (optional)
+
+font-variant (optional)
+
+font-weight (optional)
+
+font-size (required)
+
+line-height (optional, preceded by a /)
+
+font-family (required)

@@ -1,0 +1,36 @@
+*{
+    /* global reset */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(153, 23, 23);
+    position: relative;
+}
+#strip{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(19, 19, 126);
+    position: absolute;
+    top: 50px;
+}
+#circle{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+
+}

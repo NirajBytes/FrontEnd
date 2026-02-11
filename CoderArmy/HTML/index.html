@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CRASH COURSE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- inline tags which take only required width -->
+    <!-- black element which take all the available width -->
+
+    <!-- target="_blank" for new tab -->
+    <!-- <a href=""></a>  for linking html text to any link/url-->
+    <!-- <a href="http://google.com" target="_blank">Google</a>
+    <a href="./contact.html">Contact US</a> -->
+    <h1>Grocery List</h1>
+    <ul>
+      <li><b>1Kg</b> Sugar</li>
+      <li><b>1/2Kg</b> Poha</li>
+      <li><b>5Kg</b> Soya Oil</li>
+    </ul>
+
+    <h1>Flow Of Request</h1>
+    <ol>
+      <li>
+        <b>Controller</b>
+      </li>
+      <li>
+        <b>Service</b>
+      </li>
+      <li>
+        <b>Repository</b>
+      </li>
+    </ol>
+    <!-- forms -->
+    <form action="./form.html" target="_blank">
+      <div>
+        <label>First Name : </label>
+        <input type="text" placeholder="first name" />
+      </div>
+      <div>
+        <label>Email : </label>
+        <input type="email" placeholder="email" />
+      </div>
+      <div>
+        <label>Password : </label>
+        <input type="password" placeholder="password" />
+      </div>
+      <div>
+        <label>Date : </label>
+        <input type="date" />
+      </div>
+      <div>
+        <label>Message : </label>
+        <textarea></textarea>
+      </div>
+      <div>
+        <label>Size : </label>
+        <select>
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <!-- this value param is important to be manipulated by programming languages -->
+        </select>
+      </div>
+      <div id="submit">
+        <button>Submit</button>
+      </div>
+    </form>
+    <!-- images -->
+    <div id="images">
+      <img src="./rainbow.jpeg" alt="Marvel" id="marvel" />
+    </div>
+    <!-- buttons -->
+    <div id="click-btn">
+      <button type="button" onclick="changeImg()">Click me</button>
+    </div>
+    <!-- spans -->
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+      <span>ad inventore</span> consequatur.
+    </p>
+    <span> </span>
+    <div class="anchors">
+      <a href="http://google.com" target="_blank">Google</a>
+      <a href="./contact.html">Contact US</a>
+    </div>
+    <!-- TABLE -->
+     <table>
+      <caption>Monthly Salary</caption>
+      <thead>
+        <tr>
+          <th scope="col">Month</th>
+          <th scope="col">Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$50</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total</th>
+          <td>$150</td>
+        </tr>
+      </tfoot>
+     </table>
+    <script src="script.js"></script>
+  </body>
+</html>

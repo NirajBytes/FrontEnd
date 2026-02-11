@@ -1,3 +1,5 @@
+ 
+
 function emiCalculated() {
     // 1. Get values and ensure they are numbers
     const p = Number(document.getElementById("principalAmount").value);
