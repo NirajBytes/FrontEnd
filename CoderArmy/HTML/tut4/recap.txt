@@ -1,0 +1,24 @@
+comprehensive, one-hour masterclass on HTML forms, starting from the basics and progressing to building complex, real-world registration and order forms.
+
+The instructor covers essential tags and attributes, explaining their purpose and how they work together. 
+
+Key topics include:
+
+Understanding Forms: The tutorial explains what HTML forms are and their fundamental purpose in web development, such as user login and registration.
+Core Building Blocks: It introduces the basic form, input, and label tags, and explains the critical connections between id, for, and name attributes.
+Input Types: A detailed tour of various input types is provided, including text, password, email, number, tel, date, and file.
+Making Choices: The tutorial differentiates between input type="radio" for single choices and input type="checkbox" for multiple selections, explaining when to use each.
+Handling Long Lists: It covers creating user-friendly dropdown menus using the select and option tags, and explains the proper use of textarea for multi-line text input.
+Buttons: The instructor explains the button tag and the use of input type="submit".
+Built-in Validation: Attributes like required for basic validation are introduced.
+
+====================================================================================================
+
+↪️ ShortHand revision ↩️
+Form
+input : label || this to tags are related by for and id attributes
+name attribute sets the key name for database storage column
+value attribute sets the value of key 
+
+submit : achieved by input or button tag
+we use button for more flexibility

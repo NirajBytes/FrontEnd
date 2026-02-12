@@ -1,0 +1,17 @@
+Titled "HTML Nested Lists & Tables
+ provides a comprehensive guide on mastering nested lists and tables in HTML.
+
+The tutorial covers the following key topics:
+
+List Recap & Nested Lists: The tutorial begins with a quick recap of ordered and unordered lists before diving into nested lists. It demonstrates how to create lists within lists through multiple examples, explaining the syntax and practical applications for structuring hierarchical content.
+
+Introduction to HTML Tables: This section introduces HTML tables, explaining the concepts of rows (), columns, table data (), and table headers (). It also covers adding borders to tables and the use of semantic tags like ,, and `` for better organization and accessibility.
+
+Advanced Table Structures (Colspan & Rowspan): The tutorial then moves into more advanced table features, specifically colspan and rowspan, which allow cells to merge across multiple columns or rows. Several complex examples are provided to illustrate how these attributes can be used to create intricate table layouts.
+
+====================================================================================================
+↪️ ShortHand revision ↩️
+List : ul ol li 
+table : tr td : thead:- th :  tbody : tfooter
+th center and bold text instead of td
+colspan and rowspan

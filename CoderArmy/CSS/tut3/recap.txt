@@ -2,7 +2,7 @@ This video, part of the CSS Full Course, dives into two crucial CSS concepts: Ca
 
 The video covers the following key points:
 
-Cascading Rules (1:14):
+Cascading Rules :
 Inline CSS has the highest priority (3:27).
 Internal vs. External CSS priority is determined by source order (4:23).
 Specificity hierarchy: ID selectors have higher priority than classes, which have higher priority than element selectors (7:44).

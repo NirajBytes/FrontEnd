@@ -2,7 +2,6 @@ quick_overview
 
 CSS
 Cascading Style sheet
-
 Type of implimentations
 
 1.inline 

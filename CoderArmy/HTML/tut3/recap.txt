@@ -1,0 +1,27 @@
+It covers file path systems 
+the importance of HTML boilerplate code and the use of div, class, and id for content management.
+
+Key topics include:
+
+File Path Systems: The tutorial explains how to link files within a website, distinguishing between relative paths and absolute paths. It details how to navigate file structures using ../ for parent directories and ./ for current directories.
+
+HTML Boilerplate Code: The video explains why boilerplate code is essential for consistent and predictable rendering of web pages, discussing elements like DOCTYPE, meta tags, and the head and body sections. It also clarifies the importance of UTF-8 encoding for character display.
+
+Div, Class, and ID:
+
+The div tag is introduced as a generic container for grouping and styling content.
+
+The concepts of class and id are explained, highlighting that class is used for reusable styles across multiple elements 
+while id is for unique identification of a single element.
+
+Semantic HTML for Layout: The video introduces semantic tags like header, main, and footer for building professional and meaningful page structures.
+
+
+====================================================================================================
+↪️ ShortHand revision ↩️
+div : generic container
+class : group of elements
+id : unique element
+
+html structure
+header main footer

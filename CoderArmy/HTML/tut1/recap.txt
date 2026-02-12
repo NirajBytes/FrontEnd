@@ -1,0 +1,40 @@
+This tutorial provides a beginner's guide to HTML and covers the absolute essentials for web development.
+
+Here's a breakdown of the key topics:
+
+What is HTML? The tutorial defines HTML as HyperText Markup Language and explains its role as the backbone of every website. It demonstrates the concept of hyperlinks by showing the world's first website and how navigation worked before search functionality.
+
+Creating Your First Webpage: The tutorial shows how to create a basic HTML file (index.html) and view it in a browser using Live Server.
+
+Understanding HTML Tags and Elements:
+
+Heading Tags ( to ): These are used to create headings wth varying levels of importance, with being the most important. The tutorial clarifies that the size is not the primary factor, but rather the semantic meaning for SEO.
+
+Paragraph Tag (): This tag is used for normal text content.
+
+Horizontal Rule (``) and Line Break (): These tags are used for visual formatting, creating horizontal lines and line breaks, respectively.
+
+HTML Elements: An HTML element is the entire tag, including its content, from the opening tag to the closing tag.
+
+HTML Lists:
+Ordered Lists (): These lists are numbered automatically.
+Unordered Lists (): These lists use bullet points.
+
+**Hyperlinks and the Anchor Tag ()**: The tutorial explains how to create hyperlinks using the (anchor) tag, using the href attribute to specify the link's destination. It also shows how to open links in a new tab using the target="_blank" attribute.
+Attributes: Attributes are properties within tags that provide additional information, such as href for links or target for link behavior.
+
+**Adding Images ()**: The tutorial demonstrates how to embed images using the tag, specifying the image source with src and providing alternative text (alt) for accessibility and in case the image fails to load.
+
+Mini Project: The tutorial concludes with a hands-on mini-project where the instructor builds a sample webpage using all the learned HTML concepts, encouraging viewers to try it themselves.
+
+======================================================================================================================================================================================================================================================================================================================
+
+↪️ ShortHand revision ↩️
+heading tags
+Paragraph
+html tag vs html element
+list : ul & ol
+ancher tag : href & target 
+img : src & alt
+
+
