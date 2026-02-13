@@ -1,0 +1,21 @@
+The tutorial covers:
+
+Media tags: Learn to embed audio and video files using and tags, including the importance of specifying proper formats with the `` element.
+
+Embedding YouTube videos: Use the `` tag to embed YouTube videos, understanding how to correctly extract and use the video ID.
+
+Multi-page websites: Create a structured multi-page website with index.html, about.html, and contact.html files, and link them using navigation menus.
+
+Copyright symbol: Add copyright symbols to the footer section.
+
+Autoplay feature: Implement autoplay for videos.
+
+Deploying websites with Netlify: A step-by-step guide to deploying a website for free using Netlify's drag-and-drop feature, making it accessible via a live URL.
+
+====================================================================================================
+↪️ ShortHand revision ↩️
+audio tag : controls 
+video tag : controls , allowfullscreen , autoplay
+iframe  :  yt video / embed
+multi page : navigation => ancher: href
+diploy on Netlify

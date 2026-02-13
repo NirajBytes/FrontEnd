@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+  </head>
+  <body>
+    <h1>Job Application: Senior Web Developer</h1>
+    <p>
+      Thank you for your interest in joining our team. please fill out the
+      application below.
+    </p>
+    <hr />
+    <form>
+      <h2>Personal Information</h2>
+      <label for="name">Full Name:</label>
+      <br />
+      <input type="text" name="name" id="name" required/>
+      <br /><br />
+      <label for="mail">Email:</label>
+      <br />
+      <input type="email" name="mail" id="mail" />
+      <br /><br />
+      <label for="phone">Phone:</label>
+      <br />
+      <input type="tel" name="phone" id="phone" /><br /><br />
+      <label for="pro">LinkedIn Profile URL:</label>
+      <br />
+      <input
+        type="url"
+        name="pro"
+        id="pro"
+        placeholder="https://www.linkedin.com/in/niraj-balpande-44a424259/"
+      />
+      <br /><br />
+      <hr />
+      <h2>Professional Experiance</h2>
+      <label for="file">Upload Your Resume (PDF or DOCX):</label>
+      <br><br>
+      <input type="file" name="file" id="file"  accept=".pdf, .doc, .docx, application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+      <!-- ERROR: while inputting file it is not validating for pdf\docx  file type m -->
+      <br /><br />
+      <label for="cover">Cover Letter:</label>
+      <br />
+      <textarea
+        name="cover"
+        id="cover"
+        rows="10" cols="30"
+        placeholder="Tell us why you're a great fit for this role..."
+      ></textarea>
+      <br /><br />
+      <label for="exp">Years of Professional Experiance:</label><br />
+      <!-- validate only for positive -->
+      <input type="number" name="exp" id="exp" style="width: 30px" min="0"/>
+      <br /><br />
+      <label for="join">Earliest Possible Start Date:</label>
+      <br />
+      <!-- validate for greter than equal to today -->
+      <input type="date" name="join" id="join" />
+      <br /><br />
+      <hr />
+      <h2>Skills & Availability</h2>
+      <label for="skills">Primary Skillset (Choose One):</label>
+      <br />
+      <input type="radio" name="skill" id="frontend" value="FD" />
+      <label for="frontend">Frontend Development</label>
+      <br />
+      <input type="radio" name="skill" id="skills" value="BD" />
+      <label for="skills">Backend Development</label>
+      <br />
+      <input type="radio" name="skill" id="fullstack" value="FS" />
+      <label for="fullstack">Full-Stack Development</label>
+      <br />
+      <br />
+      <label for="Skills">Additional Skills (Select all that apply):</label>
+      <br />
+      <!-- confusion -->
+      <input type="checkbox" name="skills" id="react" value="reactjs" />
+      <label for="react">React</label>
+      <br />
+      <input type="checkbox" name="skills" id="node" value="nodejs" />
+      <label for="node">Node.js</label>
+      <br />
+      <input type="checkbox" name="skills" id="dbms" value="database" />
+      <label for="dbms">Database Managemment</label>
+      <br />
+      <input type="checkbox" name="skills" id="cloud" value="cloud/DevOps">
+      <label for="cloud">Cloud/DevOps</label>
+      <br />
+      <label for="work">Preferred Work Type:</label>
+      <br>
+       <select name="worktype" id="work">
+        <option value="FT">Full-Time</option>
+        <option value="PT">Part-Time</option>
+        <option value="R">Remote</option>
+      </select>
+      <br><br>
+      <hr>
+      <h2>Final Confirmation</h2>
+      <input type="checkbox" name="agreement" id="agree">
+      <label for="agree">I am legally authorized to work in this country.</label>
+      <br>
+      <label for="que">How did you hear about us?</label>
+      <br>
+      <input type="text" name="question" id="que" placeholder="e.g., LinkedIn, company"><br><br>
+      <button type="submit">Submit Application</button>
+      <button type="reset">Clear Form</button>
+      
+    </form>
+  </body>
+</html>

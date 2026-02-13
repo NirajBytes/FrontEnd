@@ -22,3 +22,16 @@ value attribute sets the value of key
 
 submit : achieved by input or button tag
 we use button for more flexibility
+
+
+======================================================================================================
+↪️ HW ANALYSIS ↩️
+http://127.0.0.1:3000/tut4/hw.html?name=Niraj+Gajanan+Balpande&mail=nirajbalpande12%40gmail.com&phone=7774860514&pro=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fniraj-balpande-44a424259%2F&file=recap.txt&file=Hi+i+am+final+year+CSE+student.&exp=6&join=2026-02-26&skills=FS&skills=FD&skills=FS&skills=on&work=R&agree=on&que=LinkedIn
+
+
+skills=FS&skills=FD&skills=FS&skills=onskills=on& // why this flaw
+
+
+**AFTER RECTIFICATION : REMEMBER USE ID unique for every tags**
+
+http://127.0.0.1:3000/tut4/hw.html?name=Niraj+Gajanan+Balpande&mail=nirajbalpande12%40gmail.com&phone=7774860514&pro=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fniraj-balpande-44a424259%2F&file=recap.txt&cover=HI+BRO&exp=2&join=2026-02-26&skill=FS&skills=reactjs&skills=database&skills=cloud%2FDevOps&worktype=PT&agreement=on&question=LinkedIn
