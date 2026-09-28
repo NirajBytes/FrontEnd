@@ -1,0 +1,1 @@
+A responsive website is designed to automatically adapt its layout, images, and content to fit any screen size, resolution, or orientation—from desktop monitors to tablets and mobile phones. It ensures optimal viewing and usability, eliminating the need for zooming or horizontal scrolling

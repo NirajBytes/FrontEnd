@@ -1,3 +1,24 @@
-h1{
-    font-style: italic;
+h1 {
+  font-style: italic;
+}
+.c1 {
+  font-size: 40px;
+}
+.c11 {
+  font-size: 2em;
+  /* 2 time of its direct parent  */
+}
+html {
+  font-size: 30px;
+}
+.c2 {
+  font-size: 5rem;
+  /* 5 time the root element i.e html tag's font-size */
+}
+
+.c3 {
+    font-size: 50px;
+}
+.c31 {
+    font-size: 50%;
 }

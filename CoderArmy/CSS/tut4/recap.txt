@@ -1,0 +1,37 @@
+flex box requirements
+1.PARENT-CHILD relation 
+display:flex; default direction row => main axis = horizontal , cross axis => virtical
+flex-direction : column;  direction column => main axis = virtical , cross axis => horizontal
+parent ops; flex wrap , gap ,etc
+child ops: flex-grow, flex-shrink ,flex-basis(main axis),self-align
+
+
+ Flexbox in CSS, a modern layout system for building responsive websites. The instructor explains the limitations of older CSS layout methods and introduces Flexbox as an elegant solution for arranging elements.
+
+Here's a breakdown of the key concepts covered:
+
+Core Concepts: The video emphasizes understanding the relationship between the Flex Container (parent) and Flex Items (children). The display: flex property transforms block-level elements into inline-block, allowing them to appear side-by-side.
+
+Container Properties:
+
+flex-direction: Controls the direction of items (row, column, row-reverse, column-reverse).
+
+justify-content: Aligns items along the main axis (e.g., center, flex-start, flex-end, space-around, space-between, space-evenly).
+
+align-items: Aligns items along the cross-axis (e.g., center, flex-start, flex-end).
+
+flex-wrap: Determines whether items should wrap onto the next line if the container is too small.
+
+gap: Creates space between flex items.
+Item Properties:
+
+flex-grow: Allows an item to grow and occupy available extra space.
+
+flex-shrink: Allows an item to shrink when there isn't enough space.
+
+flex-basis: Specifies the initial size of a flex item before any growing or shrinking.
+
+align-self: Overrides the align-items property for individual flex items.
+The video also includes a mini-project where a responsive login form is built from scratch, applying all the learned Flexbox concepts. The instructor recommends using Flexbox Froggy as a fun game to practice Flexbox skills.
+
+This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect

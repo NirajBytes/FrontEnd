@@ -7,6 +7,7 @@ Type of implimentations
 1.inline 
 2.internal
 3.external
+priority 1.inline 2.internal 3.external
 
 selectors in CSS
 
@@ -27,8 +28,8 @@ pixel used to store image in digital format
 em(1em = 1*parent size)
 Depends on parent element
 rem(1rem=1* root element)
-wv(2wv=width ka 2%)
-hv(2hv=height ka 2%)  
+vw(2vw=width ka 2%)
+vh(2vh=height ka 2%)
 %(related to direct parent element)
 
 font shorthand property(HW)
@@ -49,3 +50,4 @@ font-size (required)
 line-height (optional, preceded by a /)
 
 font-family (required)
+

@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: #0a0a0a;
+  padding-top: 20px;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 50px;
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: cont;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 2rem;
+}
+p {
+  animation-name: moving;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: aliceblue;
+}
+@keyframes moving {
+  from {
+    margin-left: 100%;
+    color: blue;
+  }
+  to {
+    margin-left: -100%;
+    color: green;
+  }
+}
+@keyframes cont {
+  from {
+    border-color: red;
+  }
+  to {
+    border-color: green;
+  }
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red solid;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 2rem;
+    animation-name: img-cont;
+     animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+img{
+    animation-name: move-img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 3rem;
+    border: yellow 5px dotted;
+}
+@keyframes move-img {
+    from{
+        border: yellow 5px dotted;
+margin-left: 210%;
+    }
+    to{
+        border: green 5px double;
+margin-left: -210%;
+    }
+    
+}
+@keyframes img-cont {
+    from{
+        border: red solid;
+    }
+    to{
+        border: green dotted;
+    }
+    
+}

@@ -36,5 +36,3 @@ html tag vs html element
 list : ul & ol
 ancher tag : href & target 
 img : src & alt
-
-

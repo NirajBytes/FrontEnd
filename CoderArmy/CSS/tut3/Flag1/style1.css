@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#circle{
+    width: 20vw;
+    height: 20vh;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 40vw;
+    top: 40vh;
+}

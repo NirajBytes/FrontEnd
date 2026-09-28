@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  }
+/* 
+@media screen and (max-width:600px) {
+  .container {
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+  }
+} */
+
+
+@media screen and (min-width:800px) {
+  .container {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+  }
+}
