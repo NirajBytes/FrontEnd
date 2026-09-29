@@ -1,0 +1,26 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    margin: 30px;
+    border: 15px solid red;
+    padding: 120px;
+
+}
+p{
+    color: aliceblue;
+}
+#margin{
+    color: red;
+    margin-top: -180px;
+}
+#padding{
+    color: blue;
+    margin-top: 50px;
+}
+#border{
+    margin: -60px;
+}
